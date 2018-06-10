@@ -15,7 +15,6 @@ https://youtu.be/RtF7Z2kg6Rs
  
 *HandleFileMapping3.cpp*: specifies the entry point for the console application.
 
- 
 The following example creates a file projection object (**HANDLE hMapFile**) duplicates the descriptor (**HANDLE hMapFileDup**) and passes it to another thread (**HANDLE hMapFileThread**).
 
 Duplicating the handle ensures that the reference count is incremented so that the "file projection" object (**HANDLE hMapFile**)
